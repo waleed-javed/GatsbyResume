@@ -1,6 +1,4 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/saadhaxxan/GatsbyResume/blob/main/src/images/logo.png" width="100" />
-</div>
+
 <h1 align="center">
   Gatsby Developer Resume
 </h1>
