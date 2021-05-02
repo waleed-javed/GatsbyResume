@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from 'react';
-import styled from 'styled-components';
-import { srConfig, email } from '@config';
-import sr from '@utils/sr';
+import React, { useEffect, useRef } from "react";
+import styled from "styled-components";
+import { srConfig, email } from "@config";
+import sr from "@utils/sr";
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -51,12 +51,13 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        Currently open to any new opportunities. Whether you have a question or
+        just want to say hi, my inbox is always open. I'll try my best to get
+        back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Say Hello!
       </a>
     </StyledContactSection>
   );

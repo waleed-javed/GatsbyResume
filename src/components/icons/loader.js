@@ -1,12 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <title>Loader Logo</title>
     <g>
       <g id="B" transform="translate(11.000000, 5.000000)">
-        <text x="26" y="57" fill="currentColor" fontSize="50px" fontFamily="Consolas, serif">
-          s
+        <text
+          x="26"
+          y="57"
+          fill="currentColor"
+          fontSize="50px"
+          fontFamily="Consolas, serif"
+        >
+          w
         </text>
       </g>
       <path

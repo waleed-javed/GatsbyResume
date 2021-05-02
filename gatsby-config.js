@@ -25,7 +25,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: "minimal-ui",
-        icon: ""
+        icon: "src/images/logo.png"
       }
     },
     `gatsby-plugin-offline`,
@@ -151,7 +151,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: ""
+        trackingId: "UA-45666519-2"
       }
     }
   ]

@@ -1,4 +1,3 @@
-
 <h1 align="center">
   Gatsby Developer Resume
 </h1>

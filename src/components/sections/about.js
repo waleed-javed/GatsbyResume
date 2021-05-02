@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import styled from 'styled-components';
-import { srConfig } from '@config';
-import sr from '@utils/sr';
+import React, { useEffect, useRef } from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+import styled from "styled-components";
+import { srConfig } from "@config";
+import sr from "@utils/sr";
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -35,7 +35,7 @@ const StyledText = styled.div`
       font-size: var(--fz-xs);
 
       &:before {
-        content: '▹';
+        content: "▹";
         position: absolute;
         left: 0;
         color: var(--green);
@@ -88,7 +88,7 @@ const StyledPic = styled.div`
 
     &:before,
     &:after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       width: 100%;
@@ -116,7 +116,10 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(
+        sourceInstanceName: { eq: "images" }
+        relativePath: { eq: "me.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +135,15 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'Django', 'React', 'Python', 'Node.js', 'Express', 'Tensorflow', 'Pytorch','DevOps', 'Kotlin', 'Rust', 'Android'];
+  const skills = [
+    "JavaScript (ES6+)",
+    "ASP.NET",
+    "React.js",
+    "Python",
+    "Node.js",
+    "Express",
+    "Tensorflow"
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,17 +152,31 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Saad, a full stack software developer based in Lahore, PK.</p>
-
             <p>
-              I build things on the internet and love building large scale applications with system design in mind. I create large scale deep neural networks to teach machines how to learn. I also develop CI/CD pipelines to automate all the processes of the workflow. i have worked in teams and also individually as a freelancer and got valuable learning experiences.
+              Hello! I'm Waleed, Full-stack Software Engineer based in
+              Bahawalpur, PK.
             </p>
 
             <p>
-              I m still studying in my undergraduate degree at{' '}
-              <a href="https://uol.edu.pk">University Of Lahore</a>, I have worked in
-              engineering, development and research teams at <a href="https://www.linkedin.com/in/saad-haxxan/">Various Companies</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              A technologist &amp; techpreneur, specialized in using
+              cutting-edge web &amp; Ai technologies to bring products from
+              concept to a reality, who has been building things on the internet
+              and love building large scale applications with system design in
+              mind.
+            </p>
+
+            <p>
+              I'm still studying my undergraduate degree at
+              <a href="https://www.cuiatd.edu.pk/">
+                Comsats University Islamabad, Abbottabad
+              </a>
+              , I have collaborated in engineering, development and research
+              teams at{" "}
+              <a href="https://www.linkedin.com/in/waleed-javed/">
+                Various events in Comsats
+              </a>{" "}
+              where I worked on a wide variety of interesting and meaningful
+              projects and management roles on regular basis.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -164,7 +189,11 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+            <Img
+              fluid={data.avatar.childImageSharp.fluid}
+              alt="Avatar"
+              className="img"
+            />
           </div>
         </StyledPic>
       </div>

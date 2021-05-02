@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled from 'styled-components';
-import { email } from '@config';
-import { navDelay, loaderDelay } from '@utils';
+import React, { useState, useEffect } from "react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import styled from "styled-components";
+import { email } from "@config";
+import { navDelay, loaderDelay } from "@utils";
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -48,13 +48,19 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Saad Hassan</h2>;
-  const three = <h3 className="big-heading">I teach people how to code.</h3>;
+  const two = <h2 className="big-heading">Waleed Javed</h2>;
+  const three = (
+    <h3 className="big-heading">
+      {" "}
+      "Innovation distinguishes, leader &amp; a follower"
+    </h3>
+  );
   const four = (
     <p>
-      A Tech enthusiast with a keen interest in Artificial Intelligence, Cyber security, Cloud
-      Computing and Block Chain. An aspiring Data Scientist with a focus on Python for Machine
-      Learning, Deep learning for computer vision and Natural Language Processing.
+      An Entrepreneaur and Tech enthusiast with a keen interest in Artificial
+      Intelligence, Web Development and Cloud Computing. An aspiring Machine
+      Learning Scientist with a focus on Python for Machine Learning, Deep
+      learning for Self-supervised machines and Cognitive Neural science.
     </p>
   );
   const five = (
