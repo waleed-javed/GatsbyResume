@@ -5,7 +5,7 @@ module.exports = {
     title: "Waleed Javed",
     description:
       "An Entrepreneaur and Tech enthusiast with a keen interest in Artificial Intelligence, Web Development and Cloud Computing. An aspiring Machine Learning Scientist with a focus on Python for Machine Learning, Deep  learning for Self-supervised machines and Cognitive Neural science.",
-    siteUrl: "https://waleed-javed.me", // No trailing slash allowed!
+    siteUrl: "https://waleedjaved.com", // No trailing slash allowed!
     image: "/og.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@codeChaudhary"
   },

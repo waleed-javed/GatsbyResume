@@ -1,15 +1,13 @@
 {
-  "name": "NewResume",
-  "description": "Personal Website",
+  "name": "new-resume-waleed",
+  "description": "",
   "version": "1.0.0",
-  "author": "Saad Hassan <saadhaxxan@ieee.org>",
+  "author": "Waleed Javed <waleedjavied@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saadhaxxan/NewResume"
+    "url": "https://github.com/waleed-javed/NewResume"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
