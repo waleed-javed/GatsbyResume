@@ -3,9 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/clever-agnesi-6def2c/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/4a897e6b-a253-4a3a-9ebf-6fb7839695ce/deploy-status)](https://app.netlify.com/sites/waleed-javed/deploys)
 </p>
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
