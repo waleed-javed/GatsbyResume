@@ -2,9 +2,7 @@
   Gatsby Developer Resume
 </h1>
 
-<p align="center">
- [![Netlify Status](https://api.netlify.com/api/v1/badges/4a897e6b-a253-4a3a-9ebf-6fb7839695ce/deploy-status)](https://app.netlify.com/sites/waleed-javed/deploys)
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a897e6b-a253-4a3a-9ebf-6fb7839695ce/deploy-status)](https://app.netlify.com/sites/waleed-javed/deploys)
 
 Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
